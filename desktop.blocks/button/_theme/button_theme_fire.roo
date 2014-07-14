@@ -1,0 +1,9 @@
+.button_theme_fire{
+  background: $red;
+  color: #fff;
+  font: 20px $df;
+  border-top: 1px solid #ed817f;
+  border-left: 1px solid #ed817f;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+}

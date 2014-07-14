@@ -1,0 +1,45 @@
+.button_theme_glow{
+  background: #295695;
+  background: linear-gradient(to right, #295695 0%,#4d81cb 50% ,#295695 100%);
+  border:1px solid #4e8af3;
+  padding: 0;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 4px;
+  position:relative;
+  box-sizing: border-box;
+  font: 600 13px $df;
+  text-shadow: 2px 2px 1px rgba(0,0,0,.5); 
+  &:after{
+    content:'';
+    left:0;
+    position: absolute;
+    top:0;
+    height: 50%;
+    width: 100%;
+    background: rgba(255,255,255,.15);
+  }
+  .button__text{
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 0;
+    border: 1px solid #99b1d1;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: -1px;
+  }
+  &.button{
+    &_hovered, 
+    &_focused{
+      background: linear-gradient(to right, #476EA5 0%,#4d81cb 50% ,#476EA5 100%);
+    }
+    &_pressed{
+      background: linear-gradient(to right, #173C70 0%,#4d81cb 50% ,#173C70 100%);
+    }
+    &_disabled{
+      background: linear-gradient(to right, #8F9192 0%,#ccc 50% ,#8F9192 100%);
+      border-color: #d5d5d5;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.button{
+  display:inline-block;
+  vertical-align: middle;
+  position: relative;    
+  border: 1px solid transparent; 
+  box-sizing:border-box;
+  cursor:pointer;  
+  outline:none;
+  text-align:center;
+  text-decoration:none;    
+  font-family: $df;   
+  transition: background-color .3s ease-in-out;
+}

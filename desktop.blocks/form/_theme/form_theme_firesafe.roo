@@ -1,0 +1,23 @@
+.form_theme_firesafe{
+  background: $grayt;
+  padding: 25px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.46);
+  color: #fff;
+  .form__heading{
+    font: 18px/1 $df;   
+    em{
+      font-style: normal;
+      font-size: 24px;
+    }
+  }
+  .form__body{
+    margin:20px auto;
+  }
+  .form__footer{
+    font-size: 12px;
+  }
+  .form__submit{
+    margin:14px auto;
+    display: block;
+  }
+}
