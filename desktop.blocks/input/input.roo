@@ -1,0 +1,31 @@
+.input{
+  text-align:left;
+  position:relative;  
+    
+  &__box{
+    margin: 0 ;
+   
+    box-sizing: border-box;
+  }
+  &__icon{
+    background-position: 0 50%;
+    opacity:.8;
+  }
+  &__control{
+    width:auto;
+    box-sizing: border-box;  
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    opacity: .7;
+    font-size: inherit;
+    font-family: $df;
+  }
+  &_focused{
+    .input__icon,
+    .input__control{
+      transition:opacity .4s ease-in-out;
+      opacity:1
+    }
+  }
+}

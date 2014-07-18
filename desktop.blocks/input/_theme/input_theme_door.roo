@@ -1,0 +1,32 @@
+.input_theme_door{
+  border: 1px solid;
+  border-radius: 6px;
+  margin:10px auto;
+  color:inherit;
+  padding: 5px;  
+  display: table;
+  box-sizing: border-box;
+  //margin: 10px;  
+  .input__control{
+    color: inherit;    
+    border: 0;
+    outline: 0;
+    padding:0 10px;
+    display:block;
+    width:100%;
+    font-weight: 300;
+    &::-webkit-input-placeholder{
+         color:inherit;
+    }
+  }
+  .input__icon{
+    display:table-cell;
+    border-right: 1px solid;
+  }
+  .input__box{
+    display: table-cell;
+  }
+  &._focused{
+    
+  }
+}
